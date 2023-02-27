@@ -13,5 +13,195 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER">
+      <UniqueIdentifier>{954767ac-83de-452c-b08a-cb514196d394}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER\Functions">
+      <UniqueIdentifier>{48f2d986-c7d0-4d37-a2d5-eba724515690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER\Unity">
+      <UniqueIdentifier>{6f821a6d-2185-4eb7-9401-56a636a4cc76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER\Unity\API">
+      <UniqueIdentifier>{40f66ece-1771-47af-a0d0-ba313c48f69f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER\Unity\Structures">
+      <UniqueIdentifier>{2e375ade-ff6d-455f-9917-dc2cf961c6d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\IL2CPP_RESOLVER\Utils">
+      <UniqueIdentifier>{44b3326e-10e4-4b74-861f-4d910ccbb784}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER">
+      <UniqueIdentifier>{04f54826-bbab-4a16-afa3-db12fcd982cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions">
+      <UniqueIdentifier>{0a44b33f-17c6-4c63-a62f-99aba72944e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER\Utils">
+      <UniqueIdentifier>{7506a7b2-8f21-4efd-8576-7e4aa96bdbc7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity">
+      <UniqueIdentifier>{564685e2-79ef-4e67-99bf-628e619ca571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API">
+      <UniqueIdentifier>{978de2d0-2956-4477-8c8e-0b9404d5cb39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures">
+      <UniqueIdentifier>{2c87c7c9-d623-4a95-a0fa-49e639dd31f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fichiers sources\USER">
+      <UniqueIdentifier>{e6ba2e43-4ef8-4807-ba13-1da6ff7118f1}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Unity\Defines.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Includes.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Obfuscators.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\LayerMask.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\Object.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\Rigidbody.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\Transform.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\_TEMPLATE_API.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\Camera.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\Component.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\API\GameObject.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\Includes.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\System_String.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\Engine.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\il2cpp.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\il2cppArray.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Unity\Structures\il2cppDictionary.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Unity\Structures</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Helper.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\Joaat.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\VFunc.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\ResolveCall.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\String.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Thread.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Callback.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Class.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions\Domain.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER\Functions</Filter>
+    </ClInclude>
+    <ClInclude Include="Cache.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER</Filter>
+    </ClInclude>
+    <ClInclude Include="Includes.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER</Filter>
+    </ClInclude>
+    <ClInclude Include="Main.hpp">
+      <Filter>Fichiers d%27en-tête\IL2CPP_RESOLVER</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Unity\API\_TEMPLATE_API.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\Camera.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\Component.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\GameObject.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\LayerMask.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\Object.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\Rigidbody.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\API\Transform.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity\API</Filter>
+    </ClCompile>
+    <ClCompile Include="Unity\Obfuscators.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Unity</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\Helper.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Callback.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Class.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\String.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions\Thread.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER\Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Cache.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER</Filter>
+    </ClCompile>
+    <ClCompile Include="Data.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Fichiers sources\IL2CPP_RESOLVER</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Fichiers sources\USER</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
